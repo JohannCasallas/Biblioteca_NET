@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "huCfOCg+uuewBSMCbG+GYUY/fAiEHZBf4VijYxstUt2APNTm/yHty9XsX/zG/gZbi65A6otZ5KjPN20gfORX+Q==",
+  "dgSpecHash": "1MoHWW3Rak5wcFFMgx7Yxqrei0G6ikVshPV1vA8YB3lEgJbOZXu41+ZH2Pw7qQIe67qw7KtzfgaQoVJvHfrSrA==",
   "success": true,
-  "projectFilePath": "C:\\Proyectos\\Proyecto_Biblioteca\\BibliotecaNET\\BibliotecaNET\\BibliotecaNET.csproj",
+  "projectFilePath": "C:\\Proyectos\\Proyecto_Biblioteca\\backend\\BibliotecaNET\\BibliotecaNET.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\johan\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\johan\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.29\\microsoft.aspnetcore.authentication.jwtbearer.6.0.29.nupkg.sha512",

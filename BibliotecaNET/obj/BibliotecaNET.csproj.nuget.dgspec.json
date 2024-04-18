@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Proyectos\\Proyecto_Biblioteca\\BibliotecaNET\\BibliotecaNET\\BibliotecaNET.csproj": {}
+    "C:\\Proyectos\\Proyecto_Biblioteca\\backend\\BibliotecaNET\\BibliotecaNET.csproj": {}
   },
   "projects": {
-    "C:\\Proyectos\\Proyecto_Biblioteca\\BibliotecaNET\\BibliotecaNET\\BibliotecaNET.csproj": {
+    "C:\\Proyectos\\Proyecto_Biblioteca\\backend\\BibliotecaNET\\BibliotecaNET.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Proyectos\\Proyecto_Biblioteca\\BibliotecaNET\\BibliotecaNET\\BibliotecaNET.csproj",
+        "projectUniqueName": "C:\\Proyectos\\Proyecto_Biblioteca\\backend\\BibliotecaNET\\BibliotecaNET.csproj",
         "projectName": "BibliotecaNET",
-        "projectPath": "C:\\Proyectos\\Proyecto_Biblioteca\\BibliotecaNET\\BibliotecaNET\\BibliotecaNET.csproj",
+        "projectPath": "C:\\Proyectos\\Proyecto_Biblioteca\\backend\\BibliotecaNET\\BibliotecaNET.csproj",
         "packagesPath": "C:\\Users\\johan\\.nuget\\packages\\",
-        "outputPath": "C:\\Proyectos\\Proyecto_Biblioteca\\BibliotecaNET\\BibliotecaNET\\obj\\",
+        "outputPath": "C:\\Proyectos\\Proyecto_Biblioteca\\backend\\BibliotecaNET\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
