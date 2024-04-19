@@ -1,12 +1,20 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using System;
 using System.Text;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.Extensions.DependencyInjection;
+using BibliotecaNET.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Agregar Servicio al Contenedor.
 builder.Services.AddControllers();
-builder.Services.AddEndpointsApiExplorer();
+
+// Configurar DbContext para la base de datos
+builder.Services.AddDbContext<DB_BIBLIOTECAContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // Agregar Servicios de autenticacion JWT
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
@@ -23,8 +31,18 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         };
     });
 
+// Cors policies permission
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("NewPolicy", app =>
+    {
+        app.AllowAnyOrigin()
+        .AllowAnyHeader()
+        .AllowAnyMethod();
+    });
+});
+
 // Agregar Swagger para la documentación de la API (opcional)
-builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
@@ -35,6 +53,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseCors("NewPolicy");
 
 app.UseHttpsRedirection();
 

@@ -1,32 +1,39 @@
-﻿using BibliotecaNET.Models;
+﻿using BibliotecaNET.Data;
+using BibliotecaNET.Models;
 using Microsoft.AspNetCore.Mvc;
-using ProyectoBiblioteca.Logica;
-using System.Linq;
+
 
 namespace ProyectoBiblioteca.Controllers
 {
+    [Route("api/Login")]
     [ApiController]
-    [Route("api/[controller]")]
     public class LoginController : ControllerBase
     {
-        // GET: Login
-        [HttpGet("Index")] // Especifica la ruta de acceso para esta acción
-        public ActionResult Index()
+        private readonly DB_BIBLIOTECAContext _context;
+
+        public LoginController(DB_BIBLIOTECAContext context)
         {
-            return Ok("Bienvenido al Login"); // Cambia esto por tu lógica para mostrar la vista
+            _context = context;
+        }
+        // GET: api/Auth/AllUsers
+        [HttpGet("ConsultarUsuarios")]
+        public ActionResult<IEnumerable<Persona>> ConsultarUsuarios()
+        {
+            var personas = _context.Personas.ToList();
+            return Ok(personas);
         }
 
-        [HttpPost("Index")] // Especifica la ruta de acceso para esta acción
-        public ActionResult Index(string correo, string clave)
+        [HttpPost("LoginAutenticacion")]
+        public IActionResult LoginAutenticacion([FromBody] CredencialesUsuario credenciales)
         {
-            Persona? usuario = PersonaLogica.Instancia.Listar().FirstOrDefault(u => u.Correo == correo && u.Clave == clave && u.IdTipoPersona != 3);
+            var usuario = _context.Personas.FirstOrDefault(u => u.Correo == credenciales.Correo && u.Clave == credenciales.Clave && u.IdTipoPersona != 3);
 
             if (usuario == null)
             {
-                return BadRequest("Usuario o contraseña incorrectos"); // Cambia esto por tu lógica de manejo de errores
+                return BadRequest("Usuario o contraseña incorrectos");
             }
 
-            return RedirectToAction("Index", "Admin"); // Cambia esto por tu lógica de redirección
+            return Ok($"Bienvenido, {usuario.Nombre} {usuario.Apellido}!");
         }
     }
 }
