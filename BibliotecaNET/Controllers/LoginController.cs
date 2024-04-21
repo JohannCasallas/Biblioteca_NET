@@ -1,10 +1,12 @@
 ﻿using BibliotecaNET.Data;
 using BibliotecaNET.Models;
 using Microsoft.AspNetCore.Mvc;
-
+using System.Collections.Generic;
+using System.Linq;
 
 namespace ProyectoBiblioteca.Controllers
 {
+ 
     [Route("api/Login")]
     [ApiController]
     public class LoginController : ControllerBase
@@ -15,7 +17,11 @@ namespace ProyectoBiblioteca.Controllers
         {
             _context = context;
         }
-        // GET: api/Auth/AllUsers
+
+        /// <summary>
+        /// Consulta todos los usuarios registrados en la base de datos.
+        /// </summary>
+        /// <returns>Lista de objetos Persona que representan a los usuarios.</returns>
         [HttpGet("ConsultarUsuarios")]
         public ActionResult<IEnumerable<Persona>> ConsultarUsuarios()
         {
@@ -23,6 +29,11 @@ namespace ProyectoBiblioteca.Controllers
             return Ok(personas);
         }
 
+        /// <summary>
+        /// Autentica a un usuario utilizando las credenciales proporcionadas.
+        /// </summary>
+        /// <param name="credenciales">Credenciales del usuario para autenticación.</param>
+        /// <returns>Respuesta de autenticación con un mensaje y un indicador de éxito.</returns>
         [HttpPost("LoginAutenticacion")]
         public IActionResult LoginAutenticacion([FromBody] CredencialesUsuario credenciales)
         {
@@ -30,10 +41,10 @@ namespace ProyectoBiblioteca.Controllers
 
             if (usuario == null)
             {
-                return BadRequest("Usuario o contraseña incorrectos");
+                return Ok(new RespuestaModel { Mensaje = "Usuario o contraseña incorrectos", Exito = false });
             }
 
-            return Ok($"Bienvenido, {usuario.Nombre} {usuario.Apellido}!");
+            return Ok(new RespuestaModel { Mensaje = $"Bienvenido, {usuario.Nombre} {usuario.Apellido}!", Exito = true });
         }
     }
 }

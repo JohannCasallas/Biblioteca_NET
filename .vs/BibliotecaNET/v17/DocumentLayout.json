@@ -3,48 +3,16 @@
   "WorkspaceRootPath": "C:\\Proyectos\\Proyecto_Biblioteca\\backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B9D231F0-29C6-49D1-973E-A28546D274BE}|BibliotecaNET\\BibliotecaNET.csproj|c:\\proyectos\\proyecto_biblioteca\\backend\\bibliotecanet\\models\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9D231F0-29C6-49D1-973E-A28546D274BE}|BibliotecaNET\\BibliotecaNET.csproj|solutionrelative:bibliotecanet\\models\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B9D231F0-29C6-49D1-973E-A28546D274BE}|BibliotecaNET\\BibliotecaNET.csproj|c:\\proyectos\\proyecto_biblioteca\\backend\\bibliotecanet\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9D231F0-29C6-49D1-973E-A28546D274BE}|BibliotecaNET\\BibliotecaNET.csproj|solutionrelative:bibliotecanet\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9D231F0-29C6-49D1-973E-A28546D274BE}|BibliotecaNET\\BibliotecaNET.csproj|c:\\proyectos\\proyecto_biblioteca\\backend\\bibliotecanet\\models\\editorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9D231F0-29C6-49D1-973E-A28546D274BE}|BibliotecaNET\\BibliotecaNET.csproj|solutionrelative:bibliotecanet\\models\\editorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9D231F0-29C6-49D1-973E-A28546D274BE}|BibliotecaNET\\BibliotecaNET.csproj|c:\\proyectos\\proyecto_biblioteca\\backend\\bibliotecanet\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9D231F0-29C6-49D1-973E-A28546D274BE}|BibliotecaNET\\BibliotecaNET.csproj|solutionrelative:bibliotecanet\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B9D231F0-29C6-49D1-973E-A28546D274BE}|BibliotecaNET\\BibliotecaNET.csproj|c:\\proyectos\\proyecto_biblioteca\\backend\\bibliotecanet\\models\\respuestamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9D231F0-29C6-49D1-973E-A28546D274BE}|BibliotecaNET\\BibliotecaNET.csproj|solutionrelative:bibliotecanet\\models\\respuestamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B9D231F0-29C6-49D1-973E-A28546D274BE}|BibliotecaNET\\BibliotecaNET.csproj|c:\\proyectos\\proyecto_biblioteca\\backend\\bibliotecanet\\models\\autor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9D231F0-29C6-49D1-973E-A28546D274BE}|BibliotecaNET\\BibliotecaNET.csproj|solutionrelative:bibliotecanet\\models\\autor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9D231F0-29C6-49D1-973E-A28546D274BE}|BibliotecaNET\\BibliotecaNET.csproj|c:\\proyectos\\proyecto_biblioteca\\backend\\bibliotecanet\\models\\credencialesusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9D231F0-29C6-49D1-973E-A28546D274BE}|BibliotecaNET\\BibliotecaNET.csproj|solutionrelative:bibliotecanet\\models\\credencialesusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9D231F0-29C6-49D1-973E-A28546D274BE}|BibliotecaNET\\BibliotecaNET.csproj|c:\\proyectos\\proyecto_biblioteca\\backend\\bibliotecanet\\controllers\\prestamocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9D231F0-29C6-49D1-973E-A28546D274BE}|BibliotecaNET\\BibliotecaNET.csproj|solutionrelative:bibliotecanet\\controllers\\prestamocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9D231F0-29C6-49D1-973E-A28546D274BE}|BibliotecaNET\\BibliotecaNET.csproj|c:\\proyectos\\proyecto_biblioteca\\backend\\bibliotecanet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9D231F0-29C6-49D1-973E-A28546D274BE}|BibliotecaNET\\BibliotecaNET.csproj|solutionrelative:bibliotecanet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9D231F0-29C6-49D1-973E-A28546D274BE}|BibliotecaNET\\BibliotecaNET.csproj|c:\\proyectos\\proyecto_biblioteca\\backend\\bibliotecanet\\controllers\\personacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9D231F0-29C6-49D1-973E-A28546D274BE}|BibliotecaNET\\BibliotecaNET.csproj|solutionrelative:bibliotecanet\\controllers\\personacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9D231F0-29C6-49D1-973E-A28546D274BE}|BibliotecaNET\\BibliotecaNET.csproj|c:\\proyectos\\proyecto_biblioteca\\backend\\bibliotecanet\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9D231F0-29C6-49D1-973E-A28546D274BE}|BibliotecaNET\\BibliotecaNET.csproj|solutionrelative:bibliotecanet\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9D231F0-29C6-49D1-973E-A28546D274BE}|BibliotecaNET\\BibliotecaNET.csproj|c:\\proyectos\\proyecto_biblioteca\\backend\\bibliotecanet\\data\\db_bibliotecacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9D231F0-29C6-49D1-973E-A28546D274BE}|BibliotecaNET\\BibliotecaNET.csproj|solutionrelative:bibliotecanet\\data\\db_bibliotecacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,147 +22,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Editorial.cs",
-              "DocumentMoniker": "C:\\Proyectos\\Proyecto_Biblioteca\\backend\\BibliotecaNET\\Models\\Editorial.cs",
-              "RelativeDocumentMoniker": "BibliotecaNET\\Models\\Editorial.cs",
-              "ToolTip": "C:\\Proyectos\\Proyecto_Biblioteca\\backend\\BibliotecaNET\\Models\\Editorial.cs",
-              "RelativeToolTip": "BibliotecaNET\\Models\\Editorial.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAwwBQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T14:12:44.158Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Categoria.cs",
-              "DocumentMoniker": "C:\\Proyectos\\Proyecto_Biblioteca\\backend\\BibliotecaNET\\Models\\Categoria.cs",
-              "RelativeDocumentMoniker": "BibliotecaNET\\Models\\Categoria.cs",
-              "ToolTip": "C:\\Proyectos\\Proyecto_Biblioteca\\backend\\BibliotecaNET\\Models\\Categoria.cs",
-              "RelativeToolTip": "BibliotecaNET\\Models\\Categoria.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAwwBQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T14:11:28.662Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Proyectos\\Proyecto_Biblioteca\\backend\\BibliotecaNET\\Program.cs",
-              "RelativeDocumentMoniker": "BibliotecaNET\\Program.cs",
-              "ToolTip": "C:\\Proyectos\\Proyecto_Biblioteca\\backend\\BibliotecaNET\\Program.cs",
-              "RelativeToolTip": "BibliotecaNET\\Program.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAADkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T06:31:35.114Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "Autor.cs",
               "DocumentMoniker": "C:\\Proyectos\\Proyecto_Biblioteca\\backend\\BibliotecaNET\\Models\\Autor.cs",
               "RelativeDocumentMoniker": "BibliotecaNET\\Models\\Autor.cs",
               "ToolTip": "C:\\Proyectos\\Proyecto_Biblioteca\\backend\\BibliotecaNET\\Models\\Autor.cs",
               "RelativeToolTip": "BibliotecaNET\\Models\\Autor.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAwwA4AAAApAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T06:26:14.906Z",
+              "WhenOpened": "2024-04-20T22:43:07.317Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CredencialesUsuario.cs",
-              "DocumentMoniker": "C:\\Proyectos\\Proyecto_Biblioteca\\backend\\BibliotecaNET\\Models\\CredencialesUsuario.cs",
-              "RelativeDocumentMoniker": "BibliotecaNET\\Models\\CredencialesUsuario.cs",
-              "ToolTip": "C:\\Proyectos\\Proyecto_Biblioteca\\backend\\BibliotecaNET\\Models\\CredencialesUsuario.cs",
-              "RelativeToolTip": "BibliotecaNET\\Models\\CredencialesUsuario.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "RespuestaModel.cs",
+              "DocumentMoniker": "C:\\Proyectos\\Proyecto_Biblioteca\\backend\\BibliotecaNET\\Models\\RespuestaModel.cs",
+              "RelativeDocumentMoniker": "BibliotecaNET\\Models\\RespuestaModel.cs",
+              "ToolTip": "C:\\Proyectos\\Proyecto_Biblioteca\\backend\\BibliotecaNET\\Models\\RespuestaModel.cs",
+              "RelativeToolTip": "BibliotecaNET\\Models\\RespuestaModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T06:26:12.843Z",
+              "WhenOpened": "2024-04-20T22:42:43.871Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Persona.cs",
-              "DocumentMoniker": "C:\\Proyectos\\Proyecto_Biblioteca\\backend\\BibliotecaNET\\Models\\Persona.cs",
-              "RelativeDocumentMoniker": "BibliotecaNET\\Models\\Persona.cs",
-              "ToolTip": "C:\\Proyectos\\Proyecto_Biblioteca\\backend\\BibliotecaNET\\Models\\Persona.cs",
-              "RelativeToolTip": "BibliotecaNET\\Models\\Persona.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T19:57:27.941Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PrestamoController.cs",
-              "DocumentMoniker": "C:\\Proyectos\\Proyecto_Biblioteca\\backend\\BibliotecaNET\\Controllers\\PrestamoController.cs",
-              "RelativeDocumentMoniker": "BibliotecaNET\\Controllers\\PrestamoController.cs",
-              "ToolTip": "C:\\Proyectos\\Proyecto_Biblioteca\\backend\\BibliotecaNET\\Controllers\\PrestamoController.cs",
-              "RelativeToolTip": "BibliotecaNET\\Controllers\\PrestamoController.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAwwDAAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T18:59:28.176Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PersonaController.cs",
-              "DocumentMoniker": "C:\\Proyectos\\Proyecto_Biblioteca\\backend\\BibliotecaNET\\Controllers\\PersonaController.cs",
-              "RelativeDocumentMoniker": "BibliotecaNET\\Controllers\\PersonaController.cs",
-              "ToolTip": "C:\\Proyectos\\Proyecto_Biblioteca\\backend\\BibliotecaNET\\Controllers\\PersonaController.cs",
-              "RelativeToolTip": "BibliotecaNET\\Controllers\\PersonaController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T18:57:37.891Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "LoginController.cs",
               "DocumentMoniker": "C:\\Proyectos\\Proyecto_Biblioteca\\backend\\BibliotecaNET\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "BibliotecaNET\\Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Proyectos\\Proyecto_Biblioteca\\backend\\BibliotecaNET\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "BibliotecaNET\\Controllers\\LoginController.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBMAAAAvAAAA",
+              "ToolTip": "C:\\Proyectos\\Proyecto_Biblioteca\\backend\\BibliotecaNET\\Controllers\\LoginController.cs*",
+              "RelativeToolTip": "BibliotecaNET\\Controllers\\LoginController.cs*",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAABwAAABoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T18:54:34.482Z",
+              "WhenOpened": "2024-04-20T21:53:43.702Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Proyectos\\Proyecto_Biblioteca\\backend\\BibliotecaNET\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "BibliotecaNET\\Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Proyectos\\Proyecto_Biblioteca\\backend\\BibliotecaNET\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "BibliotecaNET\\Controllers\\AdminController.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwAwAAABMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T18:53:05.668Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "DB_BIBLIOTECAContext.cs",
-              "DocumentMoniker": "C:\\Proyectos\\Proyecto_Biblioteca\\backend\\BibliotecaNET\\Data\\DB_BIBLIOTECAContext.cs",
-              "RelativeDocumentMoniker": "BibliotecaNET\\Data\\DB_BIBLIOTECAContext.cs",
-              "ToolTip": "C:\\Proyectos\\Proyecto_Biblioteca\\backend\\BibliotecaNET\\Data\\DB_BIBLIOTECAContext.cs",
-              "RelativeToolTip": "BibliotecaNET\\Data\\DB_BIBLIOTECAContext.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T18:52:23.756Z"
             }
           ]
         }
