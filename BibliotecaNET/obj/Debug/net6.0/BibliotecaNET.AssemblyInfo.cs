@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BibliotecaNET")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e328eff631fc7c39a96324c75f555d63051bfdaa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7a5a763c2814b126377596e9f3b0abc48e544c67")]
 [assembly: System.Reflection.AssemblyProductAttribute("BibliotecaNET")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BibliotecaNET")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
